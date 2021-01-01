@@ -1,0 +1,5 @@
+c:\GAMES\Rimworld\Mods\PsyNeurotic\1.2\Assemblies\PsyNeurotic.dll
+c:\GAMES\Rimworld\Mods\PsyNeurotic\1.2\Source\PsyNeurotic\obj\Debug\PsyNeurotic.csprojAssemblyReference.cache
+c:\GAMES\Rimworld\Mods\PsyNeurotic\1.2\Source\PsyNeurotic\obj\Debug\PsyNeurotic.csproj.CoreCompileInputs.cache
+c:\GAMES\Rimworld\Mods\PsyNeurotic\1.2\Source\PsyNeurotic\obj\Debug\PsyNeurotic.csproj.CopyComplete
+c:\GAMES\Rimworld\Mods\PsyNeurotic\1.2\Source\PsyNeurotic\obj\Debug\PsyNeurotic.dll
