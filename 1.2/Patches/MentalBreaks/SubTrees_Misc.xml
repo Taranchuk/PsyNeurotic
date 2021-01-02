@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThinkTreeDef[defName="MentalStateCritical"]/thinkRoot/subNodes</xpath>
+		<value>
+			<li Class="ThinkNode_ConditionalMentalState">
+				<state>PN_Compulsion</state>
+				<subNodes>
+					<li Class="PsyNeurotic.JobGiver_Compulsion" />
+				</subNodes>
+			</li>
+		</value>
+	</Operation>
+</Patch>
+

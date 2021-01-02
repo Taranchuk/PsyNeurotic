@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <InspirationDef>
+    <defName>PN_Inspired_Elevation</defName>
+    <label>elevation</label>
+    <baseDurationDays>60</baseDurationDays>
+    <beginLetter>[PAWN_pronoun] is on elevation stage.</beginLetter>
+    <beginLetterDef>PositiveEvent</beginLetterDef>
+    <endMessage>{0} is no longer  on elevation stage.</endMessage>
+    <baseInspectLine>Elevation</baseInspectLine>
+  </InspirationDef>
+
+</Defs>

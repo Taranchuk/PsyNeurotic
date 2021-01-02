@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<HediffDef>
+		<defName>PN_PsyNeuroticWarrior</defName>
+		<label>PsyNeuroticWarrior</label>
+		<labelNoun>PsyNeuroticWarrior</labelNoun>
+		<description>PsyNeuroticWarrior</description>
+		<defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+		<stages>
+			<li>
+				<label>Level 1</label>
+				<statOffsets>
+					<PsychicEntropyMax>0.01</PsychicEntropyMax>
+					<PsychicEntropyRecoveryRate>0.01</PsychicEntropyRecoveryRate>
+					<AimingDelayFactor>0.025</AimingDelayFactor>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+	
+</Defs>
