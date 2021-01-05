@@ -13,16 +13,5 @@ namespace PsyNeurotic
     public class PsyHediff : Hediff
     {
         public override bool ShouldRemove => false;
-
-        public override void PostAdd(DamageInfo? dinfo)
-        {
-            base.PostAdd(dinfo);
-            Log.Message("Test");
-        }
-        public override void PostRemoved()
-        {
-            base.PostRemoved();
-            Log.Message("Removed");
-        }
     }
 }
