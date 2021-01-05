@@ -15,7 +15,6 @@ namespace PsyNeurotic
     {
         private static void Postfix(DamageInfo? dinfo, Hediff exactCulprit = null)
         {
-            Log.Message(" - Postfix - if (dinfo.HasValue && dinfo.Value.Instigator is Pawn pawn && pawn.InspirationDef == PsyDefOf.PN_Inspired_Elevation) - 1", true);
             if (dinfo.HasValue && dinfo.Value.Instigator is Pawn pawn && pawn.InspirationDef == PsyDefOf.PN_Inspired_Elevation)
             {
                 var comp = pawn.TryGetComp<CompPsyNeurotic>();
@@ -24,7 +23,6 @@ namespace PsyNeurotic
                     comp.TryGainNextElevationLevel();
                     if (comp.CanGainNextPsylink())
                     {
-                        Log.Message(" - Postfix - comp.GainNextPsylink(); - 4", true);
                         comp.GainNextPsylink();
                     }
                 }

@@ -27,8 +27,6 @@ namespace PsyNeurotic
             {
                 __result = 0f;
             }
-
-            Log.Message(__instance.def + " - " + __result);
         }
     }
 }

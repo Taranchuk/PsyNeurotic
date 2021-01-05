@@ -79,10 +79,8 @@ namespace PsyNeurotic
 		public void GainNextPsylink()
         {
 			var offset = elevevationLevel - Pawn.GetPsylinkLevel();
-			Log.Message("Gaining next psylink level: " + offset);
 			Pawn.ChangePsylinkLevel(offset);
 			var psylinkLevel = Pawn.GetPsylinkLevel();
-			Log.Message(PsyTrait + " - " + PsyTrait.linkedHediff);
 			if (PsyTrait?.linkedHediff != null && severityStages.TryGetValue(psylinkLevel, out float severity))
             {
 				var hediff = Pawn.health.hediffSet.GetFirstHediffOfDef(PsyTrait.linkedHediff);
@@ -91,16 +89,8 @@ namespace PsyNeurotic
 					hediff = HediffMaker.MakeHediff(PsyTrait.linkedHediff, Pawn);
 					Pawn.health.AddHediff(hediff);
                 }
-				Log.Message(Pawn + " - " + Pawn.health.hediffSet.GetFirstHediffOfDef(PsyTrait.linkedHediff));
 				hediff.Severity = severity;
 			}
-			else
-            {
-				foreach (var stage in severityStages)
-                {
-					Log.Message(psylinkLevel + " - " + stage.Key + " - " + stage.Value);
-                }
-            }
 			elevevationLevel = 0;
 			compulsionLevel = 0;
         }
