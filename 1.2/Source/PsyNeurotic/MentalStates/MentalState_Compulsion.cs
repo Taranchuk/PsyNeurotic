@@ -15,5 +15,11 @@ namespace PsyNeurotic
 		{
 			return RandomSocialMode.Off;
 		}
-	}
+
+        public override void PostEnd()
+        {
+            base.PostEnd();
+			this.pawn.GetComp<CompPsyNeurotic>().TryGainNextCompulsionLevel();
+        }
+    }
 }

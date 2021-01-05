@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<HediffDef Abstract="True" Name="PsyHediffBase">
+		<defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+		<hediffClass>PsyNeurotic.PsyHediff</hediffClass>
+	</HediffDef>
+
+</Defs>

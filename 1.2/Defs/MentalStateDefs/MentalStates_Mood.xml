@@ -1,36 +1,47 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  <MentalBreakDef>
-    <defName>PN_Compulsion</defName>
-    <mentalState>PN_Compulsion</mentalState>
-    <baseCommonality>1</baseCommonality>
-    <intensity>Minor</intensity>
-  </MentalBreakDef>
-  
-  <MentalStateDef ParentName="BaseMentalState">
-    <defName>PN_Compulsion</defName>
-    <stateClass>PsyNeurotic.MentalState_Compulsion</stateClass>
-    <label>compulsion</label>
-    <category>Malicious</category>
-    <blockInteractionInitiationExcept>
-    </blockInteractionInitiationExcept>
-    <blockInteractionRecipientExcept>
-      <li>Insult</li>
-    </blockInteractionRecipientExcept>
-    <blockRandomInteraction>true</blockRandomInteraction>
-    <prisonersCanDo>false</prisonersCanDo>
-    <colonistsOnly>true</colonistsOnly>
-    <minTicksBeforeRecovery>30000</minTicksBeforeRecovery>
-    <maxTicksBeforeRecovery>60000</maxTicksBeforeRecovery>
-    <recoveryMtbDays>0.033</recoveryMtbDays>
-    <nameColor>(0.5, 0.9, 0.5)</nameColor>
-    <beginLetter>{0} is on a compulsion.\n\n[PAWN_pronoun] will wander around for a while, randomly starting fires.</beginLetter>
-    <beginLetterDef>ThreatSmall</beginLetterDef>
-    <moodRecoveryThought>Catharsis</moodRecoveryThought>
-    <recoveryMessage>{0} is no longer on a compulsion.</recoveryMessage>
-    <baseInspectLine>Mental state: compulsion</baseInspectLine>
-    <recoverFromSleep>true</recoverFromSleep>
-    <unspawnedCanDo>true</unspawnedCanDo>
-  </MentalStateDef>
+	<MentalBreakDef>
+		<defName>PN_CompulsionMinor</defName>
+		<mentalState>PN_Compulsion</mentalState>
+		<baseCommonality>1</baseCommonality>
+		<intensity>Minor</intensity>
+	</MentalBreakDef>
+	<MentalBreakDef>
+		<defName>PN_CompulsionMajor</defName>
+		<mentalState>PN_Compulsion</mentalState>
+		<baseCommonality>1</baseCommonality>
+		<intensity>Major</intensity>
+	</MentalBreakDef>
+	<MentalBreakDef>
+		<defName>PN_CompulsionExtreme</defName>
+		<mentalState>PN_Compulsion</mentalState>
+		<baseCommonality>1</baseCommonality>
+		<intensity>Extreme</intensity>
+	</MentalBreakDef>
+	
+	<MentalStateDef ParentName="BaseMentalState">
+		<defName>PN_Compulsion</defName>
+		<stateClass>PsyNeurotic.MentalState_Compulsion</stateClass>
+		<label>compulsion</label>
+		<category>Malicious</category>
+		<blockInteractionInitiationExcept>
+		</blockInteractionInitiationExcept>
+		<blockInteractionRecipientExcept>
+			<li>Insult</li>
+		</blockInteractionRecipientExcept>
+		<blockRandomInteraction>true</blockRandomInteraction>
+		<prisonersCanDo>true</prisonersCanDo>
+		<minTicksBeforeRecovery>5000</minTicksBeforeRecovery>
+		<maxTicksBeforeRecovery>5000</maxTicksBeforeRecovery>
+		<recoveryMtbDays>0.033</recoveryMtbDays>
+		<nameColor>(0.5, 0.9, 0.5)</nameColor>
+		<beginLetter>{0} is on a compulsion.\n\n[PAWN_pronoun] will wander around for a while, randomly starting fires.</beginLetter>
+		<beginLetterDef>ThreatSmall</beginLetterDef>
+		<moodRecoveryThought>Catharsis</moodRecoveryThought>
+		<recoveryMessage>{0} is no longer on a compulsion.</recoveryMessage>
+		<baseInspectLine>Mental state: compulsion</baseInspectLine>
+		<recoverFromSleep>true</recoverFromSleep>
+		<unspawnedCanDo>true</unspawnedCanDo>
+	</MentalStateDef>
 
 </Defs>

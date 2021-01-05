@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<HediffDef ParentName="PsyHediffBase">
+		<defName>PN_PsyNeuroticArchitect</defName>
+		<label>PsyNeuroticArchitect</label>
+		<labelNoun>PsyNeuroticArchitect</labelNoun>
+		<description>PsyNeuroticArchitect</description>
+		<stages>
+			<li>
+				<minSeverity>0</minSeverity>
+				<label>Level 1</label>
+				<statOffsets>
+					<PsychicEntropyMax>0.01</PsychicEntropyMax>
+					<PsychicEntropyRecoveryRate>0.01</PsychicEntropyRecoveryRate>
+					<ConstructionSpeed>0.025</ConstructionSpeed>
+					<ConstructSuccessChance>0.025</ConstructSuccessChance>
+				</statOffsets>
+			</li>
+			<li>
+				<minSeverity>0.2</minSeverity>
+				<label>Level 2</label>
+				<statOffsets>
+					<PsychicEntropyMax>0.02</PsychicEntropyMax>
+					<PsychicEntropyRecoveryRate>0.02</PsychicEntropyRecoveryRate>
+					<ConstructionSpeed>0.05</ConstructionSpeed>
+					<ConstructSuccessChance>0.05</ConstructSuccessChance>
+				</statOffsets>
+			</li>
+			<li>
+				<minSeverity>0.4</minSeverity>
+				<label>Level 3</label>
+				<statOffsets>
+					<PsychicEntropyMax>0.03</PsychicEntropyMax>
+					<PsychicEntropyRecoveryRate>0.03</PsychicEntropyRecoveryRate>
+					<ConstructionSpeed>0.075</ConstructionSpeed>
+					<ConstructSuccessChance>0.075</ConstructSuccessChance>
+				</statOffsets>
+			</li>
+			<li>
+				<minSeverity>0.6</minSeverity>
+				<label>Level 4</label>
+				<statOffsets>
+					<PsychicEntropyMax>0.04</PsychicEntropyMax>
+					<PsychicEntropyRecoveryRate>0.04</PsychicEntropyRecoveryRate>
+					<ConstructionSpeed>0.1</ConstructionSpeed>
+					<ConstructSuccessChance>0.1</ConstructSuccessChance>
+				</statOffsets>
+			</li>
+			<li>
+				<minSeverity>0.8</minSeverity>
+				<label>Level 5</label>
+				<statOffsets>
+					<PsychicEntropyMax>0.05</PsychicEntropyMax>
+					<PsychicEntropyRecoveryRate>0.05</PsychicEntropyRecoveryRate>
+					<ConstructionSpeed>0.125</ConstructionSpeed>
+					<ConstructSuccessChance>0.125</ConstructSuccessChance>
+				</statOffsets>
+			</li>
+			<li>
+				<minSeverity>1</minSeverity>
+				<label>Level 6</label>
+				<statOffsets>
+					<PsychicEntropyMax>0.06</PsychicEntropyMax>
+					<PsychicEntropyRecoveryRate>0.06</PsychicEntropyRecoveryRate>
+					<ConstructionSpeed>0.15</ConstructionSpeed>
+					<ConstructSuccessChance>0.15</ConstructSuccessChance>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+
+</Defs>

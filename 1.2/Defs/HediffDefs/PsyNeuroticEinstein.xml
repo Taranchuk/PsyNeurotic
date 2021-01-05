@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<HediffDef ParentName="PsyHediffBase">
+		<defName>PN_PsyNeuroticEinstein</defName>
+		<label>PsyNeuroticEinstein</label>
+		<labelNoun>PsyNeuroticEinstein</labelNoun>
+		<description>PsyNeuroticEinstein</description>
+		<stages>
+			<li>
+				<minSeverity>0</minSeverity>
+				<label>Level 1</label>
+				<statOffsets>
+					<PsychicEntropyMax>0.01</PsychicEntropyMax>
+					<PsychicEntropyRecoveryRate>0.01</PsychicEntropyRecoveryRate>
+					<WorkSpeedGlobal>0.025</WorkSpeedGlobal>
+					<ResearchSpeed>0.025</ResearchSpeed>
+				</statOffsets>
+			</li>
+			<li>
+				<minSeverity>0.2</minSeverity>
+				<label>Level 2</label>
+				<statOffsets>
+					<PsychicEntropyMax>0.02</PsychicEntropyMax>
+					<PsychicEntropyRecoveryRate>0.02</PsychicEntropyRecoveryRate>
+					<WorkSpeedGlobal>0.05</WorkSpeedGlobal>
+					<ResearchSpeed>0.05</ResearchSpeed>
+				</statOffsets>
+			</li>
+			<li>
+				<minSeverity>0.4</minSeverity>
+				<label>Level 3</label>
+				<statOffsets>
+					<PsychicEntropyMax>0.03</PsychicEntropyMax>
+					<PsychicEntropyRecoveryRate>0.03</PsychicEntropyRecoveryRate>
+					<WorkSpeedGlobal>0.075</WorkSpeedGlobal>
+					<ResearchSpeed>0.075</ResearchSpeed>
+				</statOffsets>
+			</li>
+			<li>
+				<minSeverity>0.6</minSeverity>
+				<label>Level 4</label>
+				<statOffsets>
+					<PsychicEntropyMax>0.04</PsychicEntropyMax>
+					<PsychicEntropyRecoveryRate>0.04</PsychicEntropyRecoveryRate>
+					<WorkSpeedGlobal>0.1</WorkSpeedGlobal>
+					<ResearchSpeed>0.1</ResearchSpeed>
+				</statOffsets>
+			</li>
+			<li>
+				<minSeverity>0.8</minSeverity>
+				<label>Level 5</label>
+				<statOffsets>
+					<PsychicEntropyMax>0.05</PsychicEntropyMax>
+					<PsychicEntropyRecoveryRate>0.05</PsychicEntropyRecoveryRate>
+					<WorkSpeedGlobal>0.125</WorkSpeedGlobal>
+					<ResearchSpeed>0.125</ResearchSpeed>
+				</statOffsets>
+			</li>
+			<li>
+				<minSeverity>1</minSeverity>
+				<label>Level 6</label>
+				<statOffsets>
+					<PsychicEntropyMax>0.06</PsychicEntropyMax>
+					<PsychicEntropyRecoveryRate>0.06</PsychicEntropyRecoveryRate>
+					<WorkSpeedGlobal>0.15</WorkSpeedGlobal>
+					<ResearchSpeed>0.15</ResearchSpeed>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+
+</Defs>

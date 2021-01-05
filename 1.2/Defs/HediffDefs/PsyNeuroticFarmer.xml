@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<HediffDef ParentName="PsyHediffBase">
+		<defName>PN_PsyNeuroticFarmer</defName>
+		<label>PsyNeuroticFarmer</label>
+		<labelNoun>PsyNeuroticFarmer</labelNoun>
+		<description>PsyNeuroticFarmer</description>
+		<stages>
+			<li>
+				<minSeverity>0</minSeverity>
+				<label>Level 1</label>
+				<statOffsets>
+					<PsychicEntropyMax>0.01</PsychicEntropyMax>
+					<PsychicEntropyRecoveryRate>0.01</PsychicEntropyRecoveryRate>
+					<PlantWorkSpeed>0.025</PlantWorkSpeed>
+					<PlantHarvestYield>0.025</PlantHarvestYield>
+				</statOffsets>
+			</li>
+			<li>
+				<minSeverity>0.2</minSeverity>
+				<label>Level 2</label>
+				<statOffsets>
+					<PsychicEntropyMax>0.02</PsychicEntropyMax>
+					<PsychicEntropyRecoveryRate>0.02</PsychicEntropyRecoveryRate>
+					<PlantWorkSpeed>0.05</PlantWorkSpeed>
+					<PlantHarvestYield>0.05</PlantHarvestYield>
+				</statOffsets>
+			</li>
+			<li>
+				<minSeverity>0.4</minSeverity>
+				<label>Level 3</label>
+				<statOffsets>
+					<PsychicEntropyMax>0.03</PsychicEntropyMax>
+					<PsychicEntropyRecoveryRate>0.03</PsychicEntropyRecoveryRate>
+					<PlantWorkSpeed>0.075</PlantWorkSpeed>
+					<PlantHarvestYield>0.075</PlantHarvestYield>
+				</statOffsets>
+			</li>
+			<li>
+				<minSeverity>0.6</minSeverity>
+				<label>Level 4</label>
+				<statOffsets>
+					<PsychicEntropyMax>0.04</PsychicEntropyMax>
+					<PsychicEntropyRecoveryRate>0.04</PsychicEntropyRecoveryRate>
+					<PlantWorkSpeed>0.1</PlantWorkSpeed>
+					<PlantHarvestYield>0.1</PlantHarvestYield>
+				</statOffsets>
+			</li>
+			<li>
+				<minSeverity>0.8</minSeverity>
+				<label>Level 5</label>
+				<statOffsets>
+					<PsychicEntropyMax>0.05</PsychicEntropyMax>
+					<PsychicEntropyRecoveryRate>0.05</PsychicEntropyRecoveryRate>
+					<PlantWorkSpeed>0.125</PlantWorkSpeed>
+					<PlantHarvestYield>0.125</PlantHarvestYield>
+				</statOffsets>
+			</li>
+			<li>
+				<minSeverity>1</minSeverity>
+				<label>Level 6</label>
+				<statOffsets>
+					<PsychicEntropyMax>0.06</PsychicEntropyMax>
+					<PsychicEntropyRecoveryRate>0.06</PsychicEntropyRecoveryRate>
+					<PlantWorkSpeed>0.15</PlantWorkSpeed>
+					<PlantHarvestYield>0.15</PlantHarvestYield>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+
+</Defs>

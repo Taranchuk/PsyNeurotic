@@ -23,7 +23,7 @@ namespace PsyNeurotic
                     __result = 0f;
                 }
             }
-            else if (__instance.def == PsyDefOf.PN_Compulsion)
+            else if (__instance.def.mentalState == PsyDefOf.PN_Compulsion)
             {
                 __result = 0f;
             }

@@ -17,16 +17,4 @@ namespace PsyNeurotic
             new Harmony("PsyNeurotic.HarmonyInit").PatchAll();
         }
     }
-
-    [HarmonyPatch(typeof(SkillRecord), "CalculateTotallyDisabled")]
-    internal static class CalculateTotallyDisabled_Patch
-    {
-        private static void Postfix(SkillRecord __instance, Pawn ___pawn, ref bool __result)
-        {
-            if (!__result && PsyUtils.TryGetPsyTrait(___pawn, out PsyTraitDef traitDef) && traitDef.conflictingSkills.Contains(__instance.def))
-            {
-                __result = true;
-            }
-        }
-    }
 }

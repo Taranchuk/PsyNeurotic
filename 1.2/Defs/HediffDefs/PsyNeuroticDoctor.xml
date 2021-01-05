@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<HediffDef ParentName="PsyHediffBase">
+		<defName>PN_PsyNeuroticDoctor</defName>
+		<label>PsyNeuroticDoctor</label>
+		<labelNoun>PsyNeuroticDoctor</labelNoun>
+		<description>PsyNeuroticDoctor</description>
+		<stages>
+			<li>
+				<minSeverity>0</minSeverity>
+				<label>Level 1</label>
+				<statOffsets>
+					<PsychicEntropyMax>0.01</PsychicEntropyMax>
+					<PsychicEntropyRecoveryRate>0.01</PsychicEntropyRecoveryRate>
+					<MedicalTendSpeed>0.025</MedicalTendSpeed>
+					<MedicalTendQuality>0.025</MedicalTendQuality>
+					<MedicalOperationSpeed>0.025</MedicalOperationSpeed>
+					<MedicalSurgerySuccessChance>0.025</MedicalSurgerySuccessChance>
+				</statOffsets>
+			</li>
+			<li>
+				<minSeverity>0.2</minSeverity>
+				<label>Level 2</label>
+				<statOffsets>
+					<PsychicEntropyMax>0.02</PsychicEntropyMax>
+					<PsychicEntropyRecoveryRate>0.02</PsychicEntropyRecoveryRate>
+					<MedicalTendSpeed>0.05</MedicalTendSpeed>
+					<MedicalTendQuality>0.05</MedicalTendQuality>
+					<MedicalOperationSpeed>0.05</MedicalOperationSpeed>
+					<MedicalSurgerySuccessChance>0.05</MedicalSurgerySuccessChance>
+				</statOffsets>
+			</li>
+			<li>
+				<minSeverity>0.4</minSeverity>
+				<label>Level 3</label>
+				<statOffsets>
+					<PsychicEntropyMax>0.03</PsychicEntropyMax>
+					<PsychicEntropyRecoveryRate>0.03</PsychicEntropyRecoveryRate>
+					<MedicalTendSpeed>0.075</MedicalTendSpeed>
+					<MedicalTendQuality>0.075</MedicalTendQuality>
+					<MedicalOperationSpeed>0.075</MedicalOperationSpeed>
+					<MedicalSurgerySuccessChance>0.075</MedicalSurgerySuccessChance>
+				</statOffsets>
+			</li>
+			<li>
+				<minSeverity>0.6</minSeverity>
+				<label>Level 4</label>
+				<statOffsets>
+					<PsychicEntropyMax>0.04</PsychicEntropyMax>
+					<PsychicEntropyRecoveryRate>0.04</PsychicEntropyRecoveryRate>
+					<MedicalTendSpeed>0.1</MedicalTendSpeed>
+					<MedicalTendQuality>0.1</MedicalTendQuality>
+					<MedicalOperationSpeed>0.1</MedicalOperationSpeed>
+					<MedicalSurgerySuccessChance>0.1</MedicalSurgerySuccessChance>
+				</statOffsets>
+			</li>
+			<li>
+				<minSeverity>0.8</minSeverity>
+				<label>Level 5</label>
+				<statOffsets>
+					<PsychicEntropyMax>0.05</PsychicEntropyMax>
+					<PsychicEntropyRecoveryRate>0.05</PsychicEntropyRecoveryRate>
+					<MedicalTendSpeed>0.125</MedicalTendSpeed>
+					<MedicalTendQuality>0.125</MedicalTendQuality>
+					<MedicalOperationSpeed>0.125</MedicalOperationSpeed>
+					<MedicalSurgerySuccessChance>0.125</MedicalSurgerySuccessChance>
+				</statOffsets>
+			</li>
+			<li>
+				<minSeverity>1</minSeverity>
+				<label>Level 6</label>
+				<statOffsets>
+					<PsychicEntropyMax>0.06</PsychicEntropyMax>
+					<PsychicEntropyRecoveryRate>0.06</PsychicEntropyRecoveryRate>
+					<MedicalTendSpeed>0.15</MedicalTendSpeed>
+					<MedicalTendQuality>0.15</MedicalTendQuality>
+					<MedicalOperationSpeed>0.15</MedicalOperationSpeed>
+					<MedicalSurgerySuccessChance>0.15</MedicalSurgerySuccessChance>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+
+</Defs>

@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<HediffDef ParentName="PsyHediffBase">
+		<defName>PN_PsyNeuroticGourmet</defName>
+		<label>PsyNeuroticGourmet</label>
+		<labelNoun>PsyNeuroticGourmet</labelNoun>
+		<description>PsyNeuroticGourmet</description>
+		<stages>
+			<li>
+				<minSeverity>0</minSeverity>
+				<label>Level 1</label>
+				<statOffsets>
+					<PsychicEntropyMax>0.01</PsychicEntropyMax>
+					<PsychicEntropyRecoveryRate>0.01</PsychicEntropyRecoveryRate>
+					<DrugCookingSpeed>0.025</DrugCookingSpeed>
+					<ButcheryFleshSpeed>0.025</ButcheryFleshSpeed>
+					<FoodPoisonChance>-0.025</FoodPoisonChance>
+				</statOffsets>
+			</li>
+			<li>
+				<minSeverity>0.2</minSeverity>
+				<label>Level 2</label>
+				<statOffsets>
+					<PsychicEntropyMax>0.02</PsychicEntropyMax>
+					<PsychicEntropyRecoveryRate>0.02</PsychicEntropyRecoveryRate>
+					<DrugCookingSpeed>0.05</DrugCookingSpeed>
+					<ButcheryFleshSpeed>0.05</ButcheryFleshSpeed>
+					<FoodPoisonChance>-0.05</FoodPoisonChance>
+				</statOffsets>
+			</li>
+			<li>
+				<minSeverity>0.4</minSeverity>
+				<label>Level 3</label>
+				<statOffsets>
+					<PsychicEntropyMax>0.03</PsychicEntropyMax>
+					<PsychicEntropyRecoveryRate>0.03</PsychicEntropyRecoveryRate>
+					<DrugCookingSpeed>0.075</DrugCookingSpeed>
+					<ButcheryFleshSpeed>0.075</ButcheryFleshSpeed>
+					<FoodPoisonChance>-0.075</FoodPoisonChance>
+				</statOffsets>
+			</li>
+			<li>
+				<minSeverity>0.6</minSeverity>
+				<label>Level 4</label>
+				<statOffsets>
+					<PsychicEntropyMax>0.04</PsychicEntropyMax>
+					<PsychicEntropyRecoveryRate>0.04</PsychicEntropyRecoveryRate>
+					<DrugCookingSpeed>0.1</DrugCookingSpeed>
+					<ButcheryFleshSpeed>0.1</ButcheryFleshSpeed>
+					<FoodPoisonChance>-0.1</FoodPoisonChance>
+				</statOffsets>
+			</li>
+			<li>
+				<minSeverity>0.8</minSeverity>
+				<label>Level 5</label>
+				<statOffsets>
+					<PsychicEntropyMax>0.05</PsychicEntropyMax>
+					<PsychicEntropyRecoveryRate>0.05</PsychicEntropyRecoveryRate>
+					<DrugCookingSpeed>0.125</DrugCookingSpeed>
+					<ButcheryFleshSpeed>0.125</ButcheryFleshSpeed>
+					<FoodPoisonChance>-0.125</FoodPoisonChance>
+				</statOffsets>
+			</li>
+			<li>
+				<minSeverity>1</minSeverity>
+				<label>Level 6</label>
+				<statOffsets>
+					<PsychicEntropyMax>0.06</PsychicEntropyMax>
+					<PsychicEntropyRecoveryRate>0.06</PsychicEntropyRecoveryRate>
+					<DrugCookingSpeed>0.15</DrugCookingSpeed>
+					<ButcheryFleshSpeed>0.15</ButcheryFleshSpeed>
+					<FoodPoisonChance>-0.15</FoodPoisonChance>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+
+</Defs>

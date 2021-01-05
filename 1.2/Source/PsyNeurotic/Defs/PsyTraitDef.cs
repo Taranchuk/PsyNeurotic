@@ -12,5 +12,6 @@ namespace PsyNeurotic
     {
         public List<SkillDef> conflictingSkills = new List<SkillDef>();
         public List<MentalBreakDef> allowedMentalBreaks = new List<MentalBreakDef>();
+        public HediffDef linkedHediff;
     }
 }
